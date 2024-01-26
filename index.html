@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .navbar{
+background-color:#f1f1f1;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    float:right;
+}
+li a{
+    display:inline-block;
+    color:black;
+    padding:8px 16px;
+    text-decoration: none;
+}
+li{
+    float:left;
+}
+li a.active{
+    color:red;
+}
+@media screen and (max-width:600px){
+    li{
+        float: none;
+    }
+    ul{
+        float: none;
+    }
+    li a{
+      display: block;
+      text-align: center;
+      background-color: #f1f1f1;
+    }
+  }
+    </style>
+<body>
+    <div class="navbar">
+        <img class="navbar-img" src="logo (1).png">
+    <ul>
+        <li><a class="active" href="#">HOME</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">SERVICE</a></li>
+        <li><a href="#">CONTEST</a></li>
+        <li><a href="#">CONTENT</a></li>
+        </ul>
+</body>
+</html>
